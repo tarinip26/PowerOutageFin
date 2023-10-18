@@ -48,7 +48,21 @@ Array[1] - Increase => Prevent 0s appearing instead of 1s => Reduces chances of 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-mu
+**multivariate_timeseries_data_mangalore_extreme.csv**
+
+User generated Comma Separated Data with the features as mentioned above
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**po-model.data-00000-of-00001 & po_model.index**
+
+Best current pretrained weights saved
+
+Use model.load_weights to load the weights
+
+
 
 
 
