@@ -111,12 +111,11 @@ F1 measure: 0.9
 ROC AUC: 0.9364620938628158
 
 
-```
+
 ![image](https://github.com/speedwagon1299/PowerOutage/assets/118172807/7c61ec58-685d-41f4-a221-65c5989f4758)
-```
-```
+
+
 ![image](https://github.com/speedwagon1299/PowerOutage/assets/118172807/51c0d8de-ff9d-43f1-93a6-09a15c0ced2b)
-```
-```
+
+
 ![image](https://github.com/speedwagon1299/PowerOutage/assets/118172807/ec4d6583-8249-4021-a47d-fa196458d732)
-```
