@@ -63,17 +63,48 @@ Best current pretrained weights saved
 Use model.load_weights to load the weights
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+Sequential Model:
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ bidirectional (Bidirectiona  (None, 16, 256)          136192    
+ l)                                                              
+                                                                 
+ re_lu (ReLU)                (None, 16, 256)           0         
+                                                                 
+ dropout (Dropout)           (None, 16, 256)           0         
+                                                                 
+ bidirectional_1 (Bidirectio  (None, 16, 128)          164352    
+ nal)                                                            
+                                                                 
+ re_lu_1 (ReLU)              (None, 16, 128)           0         
+                                                                 
+ dropout_1 (Dropout)         (None, 16, 128)           0         
+                                                                 
+ bidirectional_2 (Bidirectio  (None, 16, 128)          98816     
+ nal)                                                            
+                                                                 
+ re_lu_2 (ReLU)              (None, 16, 128)           0         
+                                                                 
+ dropout_2 (Dropout)         (None, 16, 128)           0         
+                                                                 
+ lstm_3 (LSTM)               (None, 128)               131584    
+                                                                 
+ dropout_3 (Dropout)         (None, 128)               0         
+                                                                 
+ dense (Dense)               (None, 1)                 129       
+                                                                 
+=================================================================
+Total params: 531,073
+Trainable params: 531,073
+Non-trainable params: 0
+_________________________________________________________________
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-
+![image](https://github.com/speedwagon1299/PowerOutage/assets/118172807/c32f1d4f-91f7-45f3-9220-affd18c4d647)
