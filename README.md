@@ -1,10 +1,10 @@
-**Detects power outage utilising features of (user generated) timestamp, location(mangalore), temperature, humidity, wind_speed, precipitation, power_outage using LSTM**
+**Detects power outage utilising (user generated) features of timestamp, location(mangalore), temperature(highest in the day), humidity(lowest in the day), wind_speed(average), precipitation(lowest in the day), power_outage using LSTM**
 
 
---------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-**LSTM.ipynb **
+**LSTM.ipynb**
 
 Main Model to train data and evaluate test data
 
@@ -32,3 +32,34 @@ CSV saved as multivariate_timeseries_data_mangalore_extreme.csv
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**WeightedBinaryCrossentropy.py**
+
+In the model, due to increased possibility of non power outage (0), there is a heavy class imbalance of 0s to 1s as present in real world data.
+
+Tensorflow code to modify weights in binary cross entropy, function used during model compilation
+
+Array[0] - Increase => Prevent 1s appearing instead of 0s => Reduces chances of False Positives
+
+Array[1] - Increase => Prevent 0s appearing instead of 1s => Reduces chances of False Negatives
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+mu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
