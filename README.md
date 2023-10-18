@@ -3,9 +3,14 @@ Detects power outage utilising features of (user generated) timestamp, location,
 
 
 LSTM.ipynb 
+
 --- Main Model to train data and evaluate test data
+
 --- Loss vs Epoch
+
 --- ROC AUC
+
 --- Confusion Matrix + F1 Measure
+
 --- Precision-Recall
 
