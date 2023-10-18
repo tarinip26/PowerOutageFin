@@ -32,10 +32,10 @@ for _ in range(num_intervals):
         (hour_progress >= 12 and hour_progress < 13) or
         (hour_progress >= 18 and hour_progress < 20)
     ):
-        temperature = 36.0 + 3*np.random.random()
-        humidity = 55.0 + 3*np.random.random()
-        wind_speed = 5.0 + 2*np.random.random()
-        precipitation = 2*np.random.random()
+        temperature = round(36.0 + 3*np.random.random())
+        humidity = round(55.0 + 3*np.random.random())
+        wind_speed = round(5.0 + 2*np.random.random())
+        precipitation = round(2*np.random.random())
         outage_occurred = 1
     else:
         outage_occurred = 0
