@@ -1,4 +1,5 @@
-**Detects power outage utilising (user generated) features of timestamp, location(mangalore), temperature(highest in the day), humidity(lowest in the day), wind_speed(average), precipitation(lowest in the day), power_outage using LSTM**
+**Detects power outage utilising (user generated) features of timestamp (10 minute intervals) , location(mangalore), temperature, humidity, wind_speed, precipitation, power_outage using LSTM
+(All features based on weather provided by embedded weather app)**
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
